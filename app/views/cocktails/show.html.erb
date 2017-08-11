@@ -1,1 +1,9 @@
-show.html.erb
+
+<div class="container size">
+  <h1><%= @cocktail.name %></h1>
+  <% @cocktail.doses.each do |dose|  %>
+    <p><%= dose.description %> <%= dose.ingredient.name %></p>
+  <% end %>
+
+  <%= link_to "doses", new_cocktail_dose_path(@cocktail), class: "btn btn-success" %>
+</div>

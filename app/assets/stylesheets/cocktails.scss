@@ -1,3 +1,31 @@
 // Place all the styles related to the Cocktails controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// You can use Sass (SCSS) here: http://sass-lang.com
+.size {
+  width: 600px;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: yellow;
+}
+
+.cname {
+  color: yellow;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+
+body {
+  background-image: url("http://419a5ecf000c70751b96-2d268c5dae618615daa5314a1f0f4b99.r77.cf1.rackcdn.com/restaurants-irs/235125/EclipseCocktails1.png");
+  margin: 0;
+  background-size: cover;
+}
